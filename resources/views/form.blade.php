@@ -7,7 +7,7 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="sapa" method="POST">
+    <form action="signUp" method="POST">
         @csrf
         <input type="text" name="nama">
         <input type="text" name="alamat">

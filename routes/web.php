@@ -27,3 +27,6 @@ Route::get('/form','RegisterController@form');
 
 Route::get('/sapa','RegisterController@sapa');
 Route::post('/sapa','RegisterController@sapa_post');
+
+Route::get('/signUp','RegisterController@signup');
+Route::post('/signUp','RegisterController@signUp_post');
